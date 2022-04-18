@@ -5,3 +5,5 @@
 
 
 [warpinator:跨局域网共享文件](https://blog.csdn.net/weixin_39584405/article/details/111620613)
+
+截图工具： flatpak install Flameshot
