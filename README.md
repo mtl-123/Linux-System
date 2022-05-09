@@ -28,9 +28,14 @@ sudo snap install network-manager
 sudo pacman -S networkmanager
 # 用法
 # 配置静态ip地址
-nmcli con modify bond0#网口名字# ipv4.addresses 192.168.100.69/24 ipv4.gateway 192.168.100.1 ipv4.dns 10.80.36.6 ipv4.method manual
+
+nmcli connection modify < your network name > ipv4.addresses 192.168.100.69/24 ipv4.gateway 192.168.100.1 ipv4.dns 10.80.36.6 ipv4.method manual
+
 # 载入配置文件
 sudo nmcli connection reload
 
 # 设置为自动启动网卡(ONBOOT=yes)
 sudo nmcli connection modify eno1 connection.autoconnect yes
+# 设置为DHCP自动获取IP地址
+sudo nmcli connection modify eth0 ipv4.method auto
+
