@@ -5,6 +5,8 @@ ubuntu安装方法
 apt-get install network-manager
 # arch、manjaro 安装方法
 manjaro 没有networkmanager 安装源 需要使用其他工具包安装方法如下：
+manjaro 安装snap包管理工具
+[snap](https://snapcraft.io/install/network-manager/manjaro)
 ```bash
 Enable snapd
 Snapd can be installed from Manjaro’s Add/Remove Software application (Pamac), found in the launch menu. From the application, search for snapd, select the result, and click Apply.
