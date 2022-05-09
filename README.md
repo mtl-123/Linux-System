@@ -39,3 +39,5 @@ sudo nmcli connection modify eno1 connection.autoconnect yes
 # 设置为DHCP自动获取IP地址
 sudo nmcli connection modify eth0 ipv4.method auto
 
+# 查看所有网络信息
+sudo nmcli device show
