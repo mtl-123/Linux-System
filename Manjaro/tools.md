@@ -62,6 +62,7 @@ SDL_IM_MODULE DEFAULT=fcitx
 
 `sudo cp /usr/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/`
 
+```bash
 sudo pacman-mirrors -i -c China -m rank
 sudo pacman-mirrors -g
 sudo pacman -Syyu
@@ -78,4 +79,4 @@ yay -S typora
 yay -S visual-studio-code-bin
 yay -S foxitreader
 
-
+```
