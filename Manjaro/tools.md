@@ -21,7 +21,14 @@ debtap -q 安装包.deb
 # 执行安装
 yay -U 安装包.pkg.tar.xz
 ```
-
+```
+$ sudo pacman -S xdg-user-dirs-gtk
+$ export LANG=en_US
+$ xdg-user-dirs-gtk-update
+$ #然后会有个窗口提示语言更改，更新名称即可
+$ export LANG=zh_CN.UTF-8
+$ #然后重启电脑如果提示语言更改，保留旧的名称即可
+```
 
 # 安装Fcitx5 输入法
 
@@ -51,6 +58,7 @@ fcitx5-pinyin-zhwiki: 根据中文维基百科创建的词库，适用于拼音�
 ，在其编辑内容如下：
 
 ```bash
+# 更改英文目录
 GTK_IM_MODULE DEFAULT=fcitx
 QT_IM_MODULE  DEFAULT=fcitx
 XMODIFIERS    DEFAULT=\@im=fcitx
