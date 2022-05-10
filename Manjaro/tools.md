@@ -80,3 +80,11 @@ yay -S visual-studio-code-bin
 yay -S foxitreader
 
 ```
+## 安装向日葵
+
+yay -Sy sunloginclient
+
+systemctl start runsunloginclient.service
+
+systemctl enable runsunloginclient.service
+
