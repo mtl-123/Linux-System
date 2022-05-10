@@ -6,6 +6,7 @@
 
 [apt-get 命令的使用：](https://ipcmen.com/apt-get)
 
+[snap仓库](https://snapcraft.io/)
 [snap 命令的使用：](https://ipcmen.com/snap)
 
 # Centos8 包管理工具
