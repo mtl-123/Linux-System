@@ -97,3 +97,9 @@ systemctl start runsunloginclient.service
 
 systemctl enable runsunloginclient.service
 
+#  安装微信
+```bash
+sudo snap install electronic-wechat
+	
+sudo snap remove electronic-wechat
+``
