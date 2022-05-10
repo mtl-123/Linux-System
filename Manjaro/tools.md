@@ -9,17 +9,18 @@
 
 `pacman -S gnome`
 
-# .deb 包的安装
+# 安装debtap（转换deb工具）
 
-`sudo pacman -S  yay`
-
-`yay -S debtap`
-
-`sudo debtap -u`
-
-`debtap packagename.deb`
-
-`sudo pacman -U package-name `
+```bash
+sudo pacman -S  yay
+yay -S debtap
+# 更新debtap数据库
+debtap -u
+# 转换deb包
+debtap -q 安装包.deb
+# 执行安装
+yay -U 安装包.pkg.tar.xz
+```
 
 
 # 安装Fcitx5 输入法
