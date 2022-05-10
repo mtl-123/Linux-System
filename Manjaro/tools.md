@@ -62,4 +62,20 @@ SDL_IM_MODULE DEFAULT=fcitx
 
 `sudo cp /usr/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/`
 
+sudo pacman-mirrors -i -c China -m rank
+sudo pacman-mirrors -g
+sudo pacman -Syyu
+sudo pacman -S archlinuxcn-keyring
+sudo pacman -S antergos-keyring
+
+sudo pacman -S yay
+sudo yay -S google-chrome
+yay -S gitkraken
+yay -S aria2
+yay -S uget
+yay -S p7zip file-roller unrar
+yay -S typora
+yay -S visual-studio-code-bin
+yay -S foxitreader
+
 
