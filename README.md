@@ -8,9 +8,9 @@ ip -4 addr | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
 
 Linux命令网络配置工具network-manager非常方便，默认没有安装
 
-ubuntu安装方法
+# ubuntu安装方法#
 
-apt-get install network-manager
+`sudo apt-get install network-manager`
 
 # arch、manjaro 安装方法
 
@@ -21,26 +21,28 @@ manjaro 安装snap包管理工具
 [snap](https://snapcraft.io/install/network-manager/manjaro)
 
 ```bash
-Enable snapd
-Snapd can be installed from Manjaro’s Add/Remove Software application (Pamac), found in the launch menu. From the application, search for snapd, select the result, and click Apply.
+启用Snapd。
+Snapd可以从Manjaro的添加/删除软件应用程序(Pamac)安装，该应用程序可以在启动菜单中找到。
+从应用程序中搜索Snapd，选择结果，然后单击应用。
+或者，也可以从命令行安装Snapd： 
 
-Alternatively, snapd can be installed from the command line:
+`sudo pacman -S snapd`
 
-sudo pacman -S snapd
-Once installed, the systemd unit that manages the main snap communication socket needs to be enabled:
+一旦安装，管理主snap通信套接字的systemd单元需要启用:
 
-sudo systemctl enable --now snapd.socket
-To enable classic snap support, enter the following to create a symbolic link between /var/lib/snapd/snap and /snap:
+`sudo systemctl enable --now snapd.socket`
 
-sudo ln -s /var/lib/snapd/snap /snap
-Either log out and back in again, or restart your system, to ensure snap’s paths are updated correctly.
+要启用经典的snap支持，输入以下命令在/var/lib/snap /snap和/snap之间创建一个符号链接:
 
-Install network-manager
-To install network-manager, simply use the following command:
+`sudo ln -s /var/lib/snapd/snap /snap`
+退出并重新登录，或者重新启动系统，以确保snap的路径被正确更新。
 
-sudo snap install network-manager
+安装网络管理者
+要安装网络管理器，只需使用以下命令:
+
+`sudo snap install network-manager`
+
 ```
-sudo pacman -S networkmanager
 
 # 用法
 
