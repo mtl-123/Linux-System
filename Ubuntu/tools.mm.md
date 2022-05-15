@@ -1,3 +1,14 @@
+# 解决重启系统后终端字体白色和无法自动补全问题
+```bash
+打开 vim ~/.bashrc
+
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+. /etc/bash_completion
+fi
+```
+
 # 常用工具
 [Linux命令安装方式查询：](https://command-not-found.com/)
 
