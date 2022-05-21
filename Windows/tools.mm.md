@@ -17,15 +17,15 @@
 - IDM：[IDM]()
 - Clover:[Clover](https://clover.en.softonic.com/)
 - QucikLook：[QucikLook]()
-- Notepads: [Notepads]()
+- Notepads: [Notepads](https://github.com/0x7c13/Notepads/releases)
 - CCleaner Free: [CCleaner Free]()
 - cmder[cmder](https://cmder.net/)
-- 截图工具：[Snipaste]()
-- 牛片网:[]()
-- 文件快速整理工具: [DropIt]()
-- 文件检索工具: [AnyTXT Searcher]
-- 文件分享工具:[Wormhole]()
-- 图标快速生成工具: [ChartCube]()
+- 截图工具：[Snipaste](https://www.snipaste.com/)
+- 牛片网:[牛片网](https://www.6pian.cn/)
+- 文件快速整理工具: [DropIt](http://www.dropitproject.com/)
+- 文件检索工具: [AnyTXT Searcher](https://anytxt.net/)
+- 文件分享工具:[Wormhole](https://wormhole.app/)
+- 图标快速生成工具: [ChartCube](https://chartcube.alipay.com/)
 
 # VPN
 - shadowsocksr
