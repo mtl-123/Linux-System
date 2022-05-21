@@ -29,7 +29,6 @@
 
 # VPN
 - shadowsocksr
-docker-compose.yml
 ```bash
 cat >> docker-compose.yml <<'EOF'
 version: '2'
