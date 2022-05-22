@@ -26,6 +26,8 @@
 - 文件检索工具: [AnyTXT Searcher](https://anytxt.net/)
 - 文件分享工具:[Wormhole](https://wormhole.app/)
 - 图标快速生成工具: [ChartCube](https://chartcube.alipay.com/)
+- B站视频下载工具：[BBDown](https://github.com/nilaoda/BBDown)
+- B站图形化视频下载工具：[B23Downloader](https://github.com/vooidzero/B23Downloader)
 
 # VPN
 - shadowsocksr
