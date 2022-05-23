@@ -28,7 +28,7 @@
 - 图标快速生成工具: [ChartCube](https://chartcube.alipay.com/)
 - B站视频下载工具：[BBDown](https://github.com/nilaoda/BBDown)
 - B站图形化视频下载工具：[B23Downloader](https://github.com/vooidzero/B23Downloader)
-
+- [桌面整理独立版](https://webcdn.m.qq.com/DeskGo/DeskGo_3_2_1445_127_lite.exe)
 # VPN
 - shadowsocksr
 ```bash
