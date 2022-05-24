@@ -3,24 +3,28 @@
 > yumdownloader和repotrack都是 yum-utils的一部分，所以在开始使用这些工具之前安装这个 rpm
 ## 安装yum-utils工具
 - CentOS 7安装
+
 [yum-utils RPM包下载](https://centos.pkgs.org/7/lux/yum-utils-1.1.31-46.el7.lux.noarch.rpm.html)
 - 下载二进制包即可
+
 `wget http://repo.iotti.biz/CentOS/7/noarch/yum-utils-1.1.31-46.el7.lux.noarch.rpm `
+
 - 强制安装
 rpm -ivh yum-utils-1.1.31-46.el7.lux.noarch.rpm  --nodeps   --force
+
 > 参数解释：
-> --nodeps: 安装时不检查依赖关系   
-> --force: 强制安装
++ --nodeps: 安装时不检查依赖关系   
++ --force: 强制安装
  
 ![image](https://user-images.githubusercontent.com/65467296/170030950-4aaa71f3-7762-44d4-bac0-810414b1817d.png)
 
 > 解决方法有两种：
 - 方法一：使用repotrack进行全量下载
-## 
 
 ```bash
 yum install yum-utils
 repotrack glibc
+
 # 参数说明：
     repotrack # 下载命令
     glibc     # 下载软件
