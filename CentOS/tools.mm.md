@@ -10,7 +10,7 @@
 `wget http://repo.iotti.biz/CentOS/7/noarch/yum-utils-1.1.31-46.el7.lux.noarch.rpm `
 
 - 强制安装
-rpm -ivh yum-utils-1.1.31-46.el7.lux.noarch.rpm  --nodeps   --force
+`rpm -ivh yum-utils-1.1.31-46.el7.lux.noarch.rpm  --nodeps   --force`
 
 > 参数解释：
 + --nodeps: 安装时不检查依赖关系   
