@@ -1,6 +1,9 @@
 # yum 离线包制作方法
 > 背景： 一般客户现场都是离线环境无法连接外网，故需要制作离线安装软件rpm包，顺带要解决安装软件时所需要的依赖库
 > yumdownloader和repotrack都是 yum-utils的一部分，所以在开始使用这些工具之前安装这个 rpm
+
+[制作离线库资料](https://www.golinuxcloud.com/download-rpm-package-and-all-dependencies-centos/)
+
 ## 查询需要安装的软件依赖关系
 `yum deplist nvidia-docker2`
 
