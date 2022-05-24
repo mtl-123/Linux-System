@@ -26,17 +26,17 @@ yum install yum-utils
 repotrack glibc
 
 # 参数说明：
-    repotrack # 下载命令
-    glibc     # 下载软件
+    + repotrack # 下载命令
+    + glibc     # 下载软件
 ```
 
 - 方法二：
 ```bash
 yumdownloader  --downloadonly --downloaddir=. glibc --resolve
 # 参数说明：
-    yumdownloader   # 下载命令
-    --downloadonly  # 下载所有依赖库参数
-    --downloaddir=/home/user/package # 下载依赖包的存储路径这个路径可以自定义
-    glibc           # 需要下载的软件
-    --resolve       # 解决依赖关系
+    + yumdownloader   # 下载命令
+    + --downloadonly  # 下载所有依赖库参数
+    + --downloaddir=/home/user/package # 下载依赖包的存储路径这个路径可以自定义
+    + glibc           # 需要下载的软件
+    + --resolve       # 解决依赖关系
 ```
