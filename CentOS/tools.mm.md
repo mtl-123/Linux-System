@@ -44,5 +44,5 @@ yumdownloader  --downloadonly --downloaddir=/home/user/package nvidia-docker2 --
     + --downloadonly  # 下载所有依赖库参数
     + --downloaddir=/home/user/package # 下载依赖包的存储路径这个路径可以自定义
     + glibc           # 需要下载的软件
-    + --resolve       # 解决依赖关系
+    + --resolve       # 下载依赖的rpm包
 ```
