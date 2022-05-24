@@ -6,6 +6,7 @@
 
 ## 查询需要安装的软件依赖关系
 `yum deplist nvidia-docker2`
+`rpm -qR nvidia-docker2 `
 
 ## 安装yum-utils工具
 
@@ -38,6 +39,8 @@ repotrack nvidia-docker2
 
 - 方法二：
 ```bash
+yumdownloader --destdir=/tmp/download --assumeyes --resolve parted
+
 yumdownloader  --downloadonly --downloaddir=/home/user/package nvidia-docker2 --resolve
 # 参数说明：
     + yumdownloader   # 下载命令
