@@ -33,8 +33,8 @@
 repotrack nvidia-docker2
 
 # 参数说明：
-    + repotrack # 下载命令
-    + glibc     # 下载软件
+    + repotrack # 下载的命令
+    + glibc     # 需下载的软件
 ```
 
 - 方法二：
