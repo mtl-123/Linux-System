@@ -35,6 +35,8 @@ repotrack nvidia-docker2
 # 参数说明：
     + repotrack # 下载的命令
     + glibc     # 需下载的软件
+# 下载的所有离线软件使用下面命令循环安装
+for i in `ls`;do rpm -Uvh $i --nodeps   --force;done
 ```
 
 - 方法二：
