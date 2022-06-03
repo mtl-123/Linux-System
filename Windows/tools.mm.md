@@ -78,3 +78,6 @@ VPN_USER=smore
 VPN_PASSWORD=smartmore
 EOF
 ```
+# Windows 命令行安装工具
+- 国内安装源
+`iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1 | iex`
