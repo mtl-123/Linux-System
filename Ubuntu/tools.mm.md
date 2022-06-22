@@ -154,4 +154,6 @@ fi
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm"
 
 ```
+# 查看linux系统详细版本号 推荐工具
 
+`sudo apt install -y screenfetch`
