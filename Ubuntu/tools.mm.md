@@ -9,12 +9,18 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 ```
 # 制作离线deb安装包
+
 - 查看依赖：
+
 `apt-cache depends XXX`
+
 -下载 deb 依赖包
+
 ` apt-get download $(apt-cache depends --recurse --no-recommends --no-suggests --no-conflicts --no-breaks --no-replaces --no-enhances --no-pre-depends XXX | grep -v i386 | grep "^\w")
 `
+
 -  使用dpkg命令进行离线安装：
+
 `dpkg -i *.deb`
 
 
