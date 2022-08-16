@@ -3,6 +3,18 @@
 [TOC]
 
 ---
+## Windows 10专业版激活密钥
+
+- 系统激活设置-> 更换产品密钥->输入密钥
+
+`2X7P3-NGJTH-Q9TJF-8XDP9-T83GT` 永久激活
+
+- 查看是否永久激活
+- win+r 运行框中输入  "slmgr.vbs -xpr" 回车
+
+![image](https://user-images.githubusercontent.com/65467296/184781520-2e797c8f-ea57-4fd9-81c7-feb497bd5749.png)
+
+
 
 - 解压缩工具：[7-zip](https://www.7-zip.org/)
 - ImageGlass: [ImageGlass](https://github.com/d2phap/ImageGlass)
