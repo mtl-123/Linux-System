@@ -18,6 +18,18 @@
 
 `XNTT9-CWMM3-RM2YM-D7KB2-JB6DV`
 
+激活步骤
+1、安装office套件后
+使用搜索工具找到Office16文件夹位置
+
+![image](https://user-images.githubusercontent.com/65467296/185039819-cab5f56f-7168-4b91-aca9-9eec78a41e3e.png)
+
+使用管理员命令行进入office16文件夹下并执行一下命令
+cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+cscript ospp.vbs /sethst:kms.03k.org
+cscript ospp.vbs /act
+cscript ospp.vbs /dstatus
+[参考文档](https://www.cnblogs.com/zenghongfei/p/13595797.html)
 
 - 解压缩工具：[7-zip](https://www.7-zip.org/)
 - ImageGlass: [ImageGlass](https://github.com/d2phap/ImageGlass)
