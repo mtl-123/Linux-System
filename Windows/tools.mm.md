@@ -115,4 +115,7 @@ EOF
 WizTree
 ## 自动关机工具
 autooff
+我的ABC软件工具箱
+Windows 超级管理工具
+Quicker
 
