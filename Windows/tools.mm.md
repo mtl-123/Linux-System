@@ -108,3 +108,11 @@ EOF
 # Windows 命令行安装工具
 - 国内安装源
 `iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1 | iex`
+
+## Windows office 激活工具
+[云萌](https://cmwtat.cloudmoe.com/cn.html)
+## 磁盘分析工具
+WizTree
+## 自动关机工具
+autooff
+
