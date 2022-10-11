@@ -1,3 +1,8 @@
+# ubuntu系统软件版本降级方法
+- 原来kubelet版本为1.25.1降级为1.18.5
+  - --allow-downgrades为降级的参数   
+`sudo apt-get install --allow-downgrades  kubelet=1.18.5-00`
+
 # 解决重启系统后终端字体白色和无法自动补全问题
 ```bash
 打开 vim ~/.bashrc
