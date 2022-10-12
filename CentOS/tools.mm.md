@@ -4,6 +4,8 @@
 
 [制作离线库资料](https://www.golinuxcloud.com/download-rpm-package-and-all-dependencies-centos/)
 
+[yum 查询软件需要版本名称并下载](https://www.cyberciti.biz/faq/install-route-command-centos-rhel-7/)
+
 ## 查询需要安装的软件依赖关系
 
 - 在线查询需安装的软件所有依赖包
