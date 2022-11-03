@@ -119,3 +119,6 @@ autooff
 Windows 超级管理工具
 Quicker
 
+## 命令清楚系统垃圾
+
+[cleanmgr](https://www.hdd-tool.com/zh-TW/windows-11/disk-cleanup-on-c-drive.html)
