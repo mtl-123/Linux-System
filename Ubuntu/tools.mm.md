@@ -29,6 +29,24 @@ fi
 `dpkg -i *.deb`
 
 
+# ubuntu 21.04 apt软件源地址
+
+```bash
+cat > /etc/apt/sources.list << EOF
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute main restricted
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates main restricted
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute universe
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates universe
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu hirsute-security main restricted
+deb http://old-releases.ubuntu.com/ubuntu hirsute-security universe
+deb http://old-releases.ubuntu.com/ubuntu hirsute-security multiverse
+EOF
+sudo apt update 
+```
+
 
 
 # 常用工具
