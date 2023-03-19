@@ -58,6 +58,7 @@ remmina \
 aria2 \
 vlc-bin \
 openssh-server \
+flameshot \
 -y
 ```
 
