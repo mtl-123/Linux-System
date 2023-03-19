@@ -59,6 +59,7 @@ aria2 \
 vlc-bin \
 openssh-server \
 flameshot \
+p7zip-full \
 -y
 ```
 
