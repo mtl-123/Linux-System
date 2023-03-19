@@ -60,7 +60,9 @@ vlc-bin \
 openssh-server \
 flameshot \
 p7zip-full \
+okular \ 
 -y
+
 ```
 
 ```bash
