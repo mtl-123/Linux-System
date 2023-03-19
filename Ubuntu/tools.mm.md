@@ -13,6 +13,25 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 . /etc/bash_completion
 fi
 ```
+
+# 把网页链接创建成桌面图标程序的方法如下
+
+```bash
+vim YouTube.desktop
+#添加如下内容
+[Desktop Entry]
+Version=1.0
+Name=YouTube
+Comment=Access YouTube search engine
+Exec=/usr/bin/google-chrome -url https://youtube.com/
+Icon=/home/m/YouTube.png
+Terminal=false
+Type=Application
+Categories=Internet;
+
+```
+
+
 # 制作离线deb安装包
 
 - 查看依赖：
