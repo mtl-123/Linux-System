@@ -15,7 +15,9 @@ fi
 ```
 
 # 把网页链接创建成桌面图标程序的方法如下
-
+如何获取网站图标方法
+在每个网站后面添加/favicon.ico  示例如下获取腾讯视频的icon  默认是ico的 保存图像
+https://v.qq.com/favicon.ico
 ```bash
 vim YouTube.desktop
 #添加如下内容
