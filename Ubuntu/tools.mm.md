@@ -101,7 +101,8 @@ flameshot \
 p7zip-full \
 okular \ 
 lrzsz \ 
-peek \ -y
+peek \ 
+typora -y
 
 ```
 
