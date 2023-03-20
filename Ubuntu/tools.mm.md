@@ -100,7 +100,8 @@ openssh-server \
 flameshot \
 p7zip-full \
 okular \ 
-lrzsz \ -y
+lrzsz \ 
+peek \ -y
 
 ```
 
