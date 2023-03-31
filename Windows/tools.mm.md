@@ -122,3 +122,8 @@ Quicker
 ## 命令清楚系统垃圾
 
 [cleanmgr](https://www.hdd-tool.com/zh-TW/windows-11/disk-cleanup-on-c-drive.html)
+
+##  windows 命令查看WiFi密码方法
+- 中间的 "360-5G" 是要查询的WiFi名称 
+- 打开系统的cmd窗口输入一下命令即可
+ wlan show profile name = "360-5G" key=clear
