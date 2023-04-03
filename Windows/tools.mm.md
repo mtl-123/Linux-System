@@ -5,6 +5,7 @@
 ---
 ## Windows 10专业版激活密钥
 
+一、手动激活方式
 - 系统激活设置-> 更换产品密钥->输入密钥
 
 `2X7P3-NGJTH-Q9TJF-8XDP9-T83GT` 永久激活
@@ -13,6 +14,13 @@
 - win+r 运行框中输入  "slmgr.vbs -xpr" 回车
 
 ![image](https://user-images.githubusercontent.com/65467296/184781520-2e797c8f-ea57-4fd9-81c7-feb497bd5749.png)
+
+二、脚本激活方式
+
+slmgr.vbs/upk
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 
+slmgr /skms kms8.msguides.com
+slmgr /ato 
 
 ## office 2016 专业增强版本key
 
