@@ -2,7 +2,8 @@
 # Author:
 # 公钥分发脚本
 # time: 2023-03-10
-
+# 需要提前安装actiona sshpass 工具
+sudo apt install actiona sshpass -y
 # 定义需要分发密钥的地址段
 host_pre=10.0.0.
 # 定义端口号
