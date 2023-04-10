@@ -1,7 +1,7 @@
 脚本使用方法
 
 创建 vim ssh-key-distrib.sh 并添加一下内容，再创建一个要远程免密登录的主机用户名和地址，比如 hostlist.txt 里面写的是主机地址 192.168.1.1
-执行./ssh-key-distrib.sh -h 
+执行 sh ssh-key-distrib.sh -h 
 
 #!/bin/bash
 
