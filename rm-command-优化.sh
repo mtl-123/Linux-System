@@ -6,6 +6,9 @@ sudo apt-get install trash-cli   # Ubuntu/Debian
 sudo yum install trash-cli       # CentOS/RHEL
 sudo pacman -S trash-cli         # Arch
 
+
+要使用shell高级函数优化rm命令，可以将下面的代码添加到.bashrc文件中
+
 # 第一版
 
 #!/bin/bash
