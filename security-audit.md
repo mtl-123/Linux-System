@@ -20,3 +20,4 @@ cd lynis
 # 有时我们不想扫描或审计整个系统的应用程序或服务，所以我们可以按类别审计自定义应用程序。我们可以先列出所有的组，然后选择需要审计或扫描的组。
 ./lynis show groups
 ```
+[Linux 用户安全](https://mp.weixin.qq.com/s/cRaHtM8pHTcJLdjToEMOdA)
