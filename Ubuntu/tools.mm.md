@@ -225,12 +225,20 @@ fi
 
 `sudo apt install -y screenfetch`
 # Shell 历史记录工具 Atuin
+
 [Atuin文档](https://github.com/ellie/atuin/blob/main/docs/zh-CN/README.md)
+
 ```bash
 # 不要以root身份运行，如果需要的话，会要求root。
-bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
 
-curl https://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh -o ~/.bash-preexec.sh
+# 下载.deb文件安装
+https://github.com/ellie/atuin/releases
+
+# 此链接需要外网才能下载脚本
+
+bash <(curl https://github.com/ellie/atuin/blob/main/install.sh)
+
+curl https://github.com/rcaloras/bash-preexec/blob/master/bash-preexec.sh -o ~/.bash-preexec.sh
 
 echo '[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh' >> ~/.bashrc
 echo 'eval "$(atuin init bash)"' >> ~/.bashrc
