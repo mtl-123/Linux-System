@@ -238,6 +238,9 @@ https://github.com/ellie/atuin/releases
 
 bash <(curl https://github.com/ellie/atuin/blob/main/install.sh)
 
+# 激活atuin 才有历史记录信息
+atuin import auto
+
 curl https://github.com/rcaloras/bash-preexec/blob/master/bash-preexec.sh -o ~/.bash-preexec.sh
 
 echo '[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh' >> ~/.bashrc
